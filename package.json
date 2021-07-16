@@ -35,6 +35,15 @@
     },
     "rules": {}
   },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.js": "eslint --fix",
+    "*.{js,wxml,wxss,json,md}": "prettier -w"
+  },
   "browserslist": [
     "> 1%",
     "last 2 versions",
