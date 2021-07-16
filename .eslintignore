@@ -1,0 +1,10 @@
+node_modules/
+asserts/
+package-lock.json
+miniprogram_npm/
+public/
+unpackage/
+wxcomponents/
+dist/
+sdk/
+utils/gio-minp
